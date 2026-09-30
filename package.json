@@ -1,0 +1,26 @@
+{
+  "name": "foo",
+  "version": "0.1.0",
+  "description": "A Node.js library and command-line tool.",
+  "license": "BSD-3-Clause",
+  "type": "commonjs",
+  "main": "lib/index.js",
+  "bin": {
+    "foo": "bin/foo.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "foo",
+    "cli",
+    "library"
+  ]
+}
